@@ -45,7 +45,7 @@ class FaceDetector(object):
 
         font = cv2.FONT_HERSHEY_SIMPLEX
 #        cv2.putText(frame,'OpenCV',(10,500), font, 4,(255,255,255),2,cv2.LINE_AA)
-        cv2.putText(frame,count,(10,500), font, 4,(255,255,255),2,cv2.LINE_AA)
+        cv2.putText(frame,%count,(10,500), font, 4,(255,255,255),2,cv2.LINE_AA)
 
         # frameを戻り値として返す
         return frame
